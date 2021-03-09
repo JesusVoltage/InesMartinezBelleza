@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 header {
     position: relative;
     background-color: black;
-    height: 85vh;
+    height: 100vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -9,7 +11,7 @@ header {
   
   header video {
     position: absolute;
-    top: 85%;
+    top: 75%;
     left: 40%;
     min-width: 100%;
     min-height: 100%;
@@ -33,7 +35,7 @@ header {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgb(92, 92, 92);
+    background-color: rgba(122, 122, 122, 0.507);
     opacity: 0.5;
     z-index: 1;
   }
@@ -47,3 +49,31 @@ header {
     }
   }
   
+  h3{
+    font-family: 'Montserrat', sans-serif;
+  }
+  p{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  img{
+    width: 100% !important;
+  }
+
+  .foto1{
+    background-image: url("../../assets/img/foto1.jpg");
+    width: 100%;
+  }
+
+  .fotito{
+    transition: 0.4s;
+    filter: grayscale(100%);
+
+  }
+  .fotito:hover{
+    opacity: 1.5;
+    cursor: pointer;
+    transform: scale(0.95);
+    filter: grayscale(0%);
+
+  }
